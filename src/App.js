@@ -1,11 +1,11 @@
 import Banner from './components/Banner';
-import InputText from './components/InputText';
+import Form from './components/Form';
 
 const App = () => {
   return (
     <div className="App">
-      <Banner />
-      <InputText />
+      <Banner/>
+      <Form/>
     </div>
   );
 }
